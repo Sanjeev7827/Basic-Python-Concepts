@@ -1,7 +1,4 @@
-first_name=input("Enter first Name:")
-last_name=input("Enter last Name:")
-
-def greet(first_name,last_name):
-    return f"Hello, {first_name} {last_name}! welcome to the Python program"
-
-print(greet(first_name,last_name))
+sum=0
+for i in range(1,51):
+    sum=sum+i
+print(f"The sum of numbers from 1 to 50 is {sum}")
