@@ -1,5 +1,8 @@
-num=int(input("Enter num: "))
-if num%2==0:
-    print(f"{num} is an even number")
-else:
-    print(f"{num} is an odd number")
+number=int(input("Enter number: "))
+def fact(n):
+    if n==1 or n==0:
+        return 1
+    return n*fact(n-1)
+
+print(f"The factorial of {number} is: {fact(number)}")
+        
